@@ -1,5 +1,5 @@
-# Created using wingetcreate 1.1.2.0
-# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.2.0.schema.json
+# Created using wingetcreate 1.12.13.0
+# yaml-language-server: $schema=https://aka.ms/winget-manifest.installer.1.12.0.schema.json
 
 PackageIdentifier: AIMP.AIMP
 PackageVersion: 5.10.2418
@@ -50,11 +50,10 @@ AppsAndFeaturesEntries:
 - ProductCode: AIMP
 Installers:
 - Architecture: x64
-  InstallerUrl: https://aimp.ru/files/windows/builds/aimp_5.10.2418_w64.exe
+  InstallerUrl: https://aimp.ru/files/desktop/builds/aimp_5.10.2418_w64.exe
   InstallerSha256: BEEC5CD3D3E61B314C4505B79EDB93C2F0ED85CA08FD70393724FE80CCA70420
 - Architecture: x86
-  InstallerUrl: https://aimp.ru/files/windows/builds/aimp_5.10.2418_w32.exe
+  InstallerUrl: https://aimp.ru/files/desktop/builds/aimp_5.10.2418_w32.exe
   InstallerSha256: 21A1DF4B36E29327694A627A54D8E47167C781DB2E6BF560319BE45CA4FC761F
 ManifestType: installer
-ManifestVersion: 1.2.0
-
+ManifestVersion: 1.12.0
